@@ -1,0 +1,5 @@
+https://youtu.be/CO2c59XCtW0
+https://regex101.com/
+/^([0-9]{4})-(0[1-9]|1[0-2])-(0[0-9]|1[0-9]|2[0-9]|3[0-1]|)/gm
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat
