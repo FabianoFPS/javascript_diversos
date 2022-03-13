@@ -1,0 +1,17 @@
+{
+  "name": "testes_e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "server": "npx nodemon ./src/index.js",
+    "jest-config": "npx jest --init",
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest) --watchAll"
+  },
+  "devDependencies": {
+    "jest": "27",
+    "nodemon": "2",
+    "supertest": "6.2.2"
+  }
+}
